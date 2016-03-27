@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+
+  <link href='https://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
+
+  <!-- set viewport to device width to make site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="racing_game.css">
+
+  <title>Box Race</title>
+</head>
+<body id="race">
+  <h1>Box Race</h1>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header text-center">
+          <div>
+        </div>
+        <table id="racetrack">
+    <tr id="row1">
+      <td></td><td></td>
+      <td></td><td></td>
+      <td></td><td></td>
+      <td></td><td></td>
+      <td></td><td></td>
+      <td></td><td></td>
+    </tr>
+        <tr id="row2">
+        <td id="box1" class="player" data-key="a"></td><td></td>
+        <td></td><td></td>
+        <td></td><td></td>
+        <td></td><td></td>
+        <td></td><td></td>
+        <td></td><td></td>
+    </tr>
+        <tr id="row3">
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+    </tr>
+        <tr id="row4">
+          <td id="box2" class="player" data-key="l"></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+    </tr>
+        <tr id="row5">
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+          <td></td><td></td>
+    </tr>
+
+</table>
+
+        </div>
+
+        </div>
+        <button class="btn btn-lg btn-reset tmp-hidden" id="reset">Start Race!</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="racing_game1.js" type="text/javascript"></script>
+</body>
+</html>
