@@ -37,7 +37,6 @@ table tr:nth-child() {
     height: 160px;
     left: 160px;
     top: 160px;
-    float: left;
     position: absolute;
 }
 #yellowBox {
@@ -50,6 +49,5 @@ table tr:nth-child() {
     left: 160px;
     top: 160px;
     margin: 160px;
-    float: left;
     position: absolute;
 }

@@ -1,14 +1,15 @@
 // wait for the DOM to finish loading
-$(document).ready(function(){
+$(document).ready(function() {
 
 });
 
-var player;
+var player1;
+
 function move(event) {
     var k = event.keyCode,
         boxId = document.getElementById('blueBox'),
         box = {
-            moveRight: function () {
+            moveRight: function() {
                 var x = parseInt(getComputedStyle(boxId).left);
                 if (k == 76) {
                     ++x;
@@ -23,12 +24,13 @@ function move(event) {
 document.addEventListener('keydown', move);
 
 
-var player;
+var player2;
+
 function moveAgain(event) {
     var s = event.keyCode,
         boxId = document.getElementById('yellowBox'),
         box = {
-            moveRightAgain: function () {
+            moveRightAgain: function() {
                 var y = parseInt(getComputedStyle(boxId).left);
                 if (s == 65) {
                     ++y;
