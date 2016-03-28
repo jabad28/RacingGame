@@ -1,6 +1,7 @@
 # RacingGame
 
 *Short explanation of the project (1-2 sentences) - what is the goal of the project and/or main functionality?
+
 -The goal of building Project 0 was to create a 2 player racing game in our browser only being able to push
 1 key each until they hit the finish line.  
 
