@@ -46,7 +46,7 @@ table tr:nth-child() {
     background-position: center;
     width: 160px;
     height: 160px;
-    left: 160px;
+    left: 1px;
     top: 160px;
     margin: 160px;
     position: absolute;

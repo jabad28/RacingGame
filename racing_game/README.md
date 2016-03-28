@@ -15,10 +15,10 @@
   What features does your racing game have? (bullet points)
 - keyCode event listeners (keydown to move players from point A to point B)
 - two players with images and move to the right when the assigned keys are pressed
-- background image that goes with theme
+- background image that goes with theme of players
 
 *Planned Features
   What changes would you make to your project if you continue to work on it? (bullet points)
-- have players start on same line to the left
+- track the winner and have a winner when it reaches the end of the game
 - use more libraries like jQuery
 - be more creative with my game
