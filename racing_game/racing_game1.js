@@ -1,27 +1,43 @@
-// // wait for the DOM to finish loading
+// wait for the DOM to finish loading
 $(document).ready(function(){
+
 });
 
-  $("td").on("mousemove", function () {
-  console.log("you are on td");
-  });
+var player;
+function move(event) {
+    var k = event.keyCode,
+        boxId = document.getElementById('blueBox'),
+        box = {
+            moveRight: function () {
+                var x = parseInt(getComputedStyle(boxId).left);
+                if (k == 76) {
+                    ++x;
+                } else if (k == 76) {
+                    ++x;
+                }
+                return x;
+            }
+        };
+    boxId.style.left = (box.moveRight()) + "px";
+}
+document.addEventListener('keydown', move);
 
-  $(function() {
-    var box= '<td id="box"></td>';
-    $("#racetrack".append(player));
 
-    $(document).keydown(function(e){
-      var position = $("#player").position();
-      switch(e.keyCode)
-    {
-        case 65:
-          $("#player").css('a', position.right - 20 + 'px');
-          break;
-
-        case 76:
-          $("player").css('l', position.right - 20 + 'px');
-          break;
-        }
-      }
-    );
-  });
+var player;
+function moveAgain(event) {
+    var s = event.keyCode,
+        boxId = document.getElementById('yellowBox'),
+        box = {
+            moveRightAgain: function () {
+                var y = parseInt(getComputedStyle(boxId).left);
+                if (s == 65) {
+                    ++y;
+                } else if (s == 65) {
+                    ++y;
+                }
+                return y;
+            }
+        };
+    boxId.style.left = (box.moveRightAgain()) + "px";
+}
+document.addEventListener('keydown', moveAgain);
