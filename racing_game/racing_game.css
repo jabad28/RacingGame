@@ -9,10 +9,10 @@ body {
   text-align: center;
 }
 table {
-  width: 1250px;
+  width: 1255px;
   height: 400px;
   border: solid #000 1px;
-  text-align: center;
+  text-align: left;;
   background-image: url(http://thewhitonline.com/wp-content/uploads/2015/12/9163083607_876666a9f0_o.jpg);
   background-size:cover;
   background-position: center;
@@ -33,10 +33,10 @@ table tr:nth-child() {
     background-image: url(http://centrio.jehzeellaurente.netdna-cdn.com/wp-content/uploads/2015/04/05_stephen_curry.jpg);
     background-size: cover;
     background-position: center;
-    width: 150px;
-    height: 150px;
-    left: 150px;
-    top: 150px;
+    width: 160px;
+    height: 160px;
+    left: 160px;
+    top: 160px;
     float: left;
     position: absolute;
 }
@@ -45,11 +45,11 @@ table tr:nth-child() {
     background-image: url(http://hypefreshmag.com/wp-content/uploads/2016/01/frame_ext.jpg);
     background-size: cover;
     background-position: center;
-    width: 150px;
-    height: 150px;
-    left: 150px;
-    top: 150px;
-    margin: 150px;
+    width: 160px;
+    height: 160px;
+    left: 160px;
+    top: 160px;
+    margin: 160px;
     float: left;
     position: absolute;
 }
